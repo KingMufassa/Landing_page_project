@@ -16,6 +16,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding-top: 16px;
+    margin-bottom: 50px;
   }
 
 a{
@@ -33,4 +34,47 @@ a{
 .logo{
     font-size: 24px;
     color: #F9FAF8;
+}
+/*  */
+
+/* Text and image */
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 50px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 8px;
+}
+
+.text{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+button{               
+    align-self: flex-start;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    padding: 4px 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+img{
+    flex-grow: 1;
 }
