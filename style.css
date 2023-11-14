@@ -37,6 +37,7 @@ a{
 }
 /*  */
 
+
 /* Text and image */
 .bottom{
     display: flex;
@@ -75,6 +76,41 @@ button{
     text-align: center;
 }
 
-img{
-    flex-grow: 1;
+
+/* Random Information */
+.information{
+    margin-bottom: 60px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+.container .text{
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    margin-top: 8px;
+    color: #1f2937;
+    font-size: 18px;
+}
+
+.container img{
+    border-radius: 12px;
 }
