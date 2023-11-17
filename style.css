@@ -114,3 +114,69 @@ h2{
 .container img{
     border-radius: 12px;
 }
+
+/* Inspirational quote */
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 150px 230px;
+}
+
+.quote1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quotation{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Call to action */
+
+/* Div parente */
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 200px;
+}
+
+/* div informação */
+.action{
+    display: flex;
+    flex-direction: row;
+    background-color:#3882F6 ;
+    padding: 40px 90px;
+    border-radius: 8px;
+    color: #E5E7EB;
+    font-size: 18px;
+    gap: 350px;
+    align-items: center;
+}
+
+h3{
+    margin-bottom: 8px;
+}
+
+/* Botão sign up */
+.signup2{
+    border: 2px solid white;
+    align-self: center;
+}
+
+/* Footer */
+footer{
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: center;
+    padding: 40px 0;
+}
